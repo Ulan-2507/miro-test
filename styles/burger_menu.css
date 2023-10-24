@@ -8,6 +8,12 @@
   display: none;
 }
 
+.menu__label {
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 .menu__checkbox {
   position: absolute;
   display: block;

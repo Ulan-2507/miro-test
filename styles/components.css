@@ -169,6 +169,12 @@
   color: var(--color-primary);
 }
 
+.form__label {
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 .form__input {
   margin-bottom: 10px;
   height: 48px;
