@@ -26,7 +26,14 @@
   flex: 1 1 30%;
 }
 
-.advantages__desc {}
+.advantages__img {
+  margin-bottom: 25px;
+}
+
+.advantages__desc {
+  color: var(--color-primary);
+  text-wrap: balance;
+}
 
 @media screen and (max-width: 640px) {
   .advantages__list {
@@ -45,5 +52,6 @@
 
   .advantages__img {
     max-width: 60%;
+    margin-bottom: 15px;
   }
 }
