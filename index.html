@@ -71,7 +71,7 @@
       <!-- /Buttons -->
       <!-- Menu -->
       <div class="menu">
-        <label class="menu__label" for="toggle-menu">Кнопка меню</label>
+        <label class="visually-hidden" for="toggle-menu">Кнопка меню</label>
         <input class="menu__checkbox" type="checkbox" name="toggle-menu" id="toggle-menu" />
         <div class="hamburger-lines">
           <span class="line line1"></span>
@@ -87,28 +87,28 @@
               <li class="menu__item"><a href="#">Ресурсы</a></li>
               <li class="menu__item"><a href="#">Предприятия</a></li>
               <li class="menu__item"><a href="#">Тарифы</a></li>
-              <li class="menu__item"><!-- buttons -->
-                <div class="hero-buttons">
-                  <button class="button button_svg" aria-label="Кнопка изменения языка страницы">
-                    <span class="visually-hidden">язык страницы</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_2_647)">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M24 12C24 18.6275 18.6275 24 12 24C5.37259 24 0 18.6275 0 12C0 5.37259 5.37259 0 12 0C18.6275 0 24 5.37259 24 12ZM6.12377 14C6.04208 13.3448 6 12.6773 6 12C6 11.3227 6.04209 10.6552 6.1238 10H2.20004C2.06887 10.6462 2 11.3151 2 12C2 12.6849 2.06887 13.3537 2.20004 14H6.12377ZM6.50405 16H2.83209C4.0096 18.6951 6.34063 20.7707 9.20108 21.6031C7.96156 19.9536 7.03345 18.0568 6.50405 16ZM8.57976 16H15.4203C14.7623 18.2109 13.5728 20.1929 12 21.798C10.4272 20.1929 9.23776 18.2109 8.57976 16ZM15.8583 14H8.14179C8.04836 13.3468 8 12.679 8 12C8 11.321 8.04836 10.6532 8.14179 10H15.8583C15.9516 10.6532 16 11.321 16 12C16 12.679 15.9516 13.3468 15.8583 14ZM17.8763 14C17.9579 13.3448 18 12.6773 18 12C18 11.3227 17.9579 10.6552 17.8763 10H21.8C21.9312 10.6462 22 11.3151 22 12C22 12.6849 21.9312 13.3537 21.8 14H17.8763ZM17.496 16H21.1679C19.9904 18.6951 17.6593 20.7707 14.7989 21.6031C16.0384 19.9536 16.9665 18.0568 17.496 16ZM12 2.20204C10.4272 3.80704 9.23776 5.78908 8.57976 8H15.4203C14.7623 5.78908 13.5728 3.80704 12 2.20204ZM14.7989 2.39697C16.0384 4.04639 16.9665 5.94316 17.4959 8H21.1679C19.9904 5.30497 17.6593 3.22927 14.7989 2.39697ZM2.83209 8H6.50408C7.03348 5.94316 7.9616 4.04639 9.20111 2.39697C6.34064 3.22927 4.0096 5.30497 2.83209 8Z" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_2_647">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </button>
-                  <button class="button button_primary">Регистрация</button>
-                </div>
-                <!-- /buttons -->
               </li>
             </ul>
           </nav>
+          <!-- buttons -->
+          <div class="hero-buttons">
+            <button class="button button_svg" aria-label="Кнопка изменения языка страницы">
+              <span class="visually-hidden">язык страницы</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2_647)">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M24 12C24 18.6275 18.6275 24 12 24C5.37259 24 0 18.6275 0 12C0 5.37259 5.37259 0 12 0C18.6275 0 24 5.37259 24 12ZM6.12377 14C6.04208 13.3448 6 12.6773 6 12C6 11.3227 6.04209 10.6552 6.1238 10H2.20004C2.06887 10.6462 2 11.3151 2 12C2 12.6849 2.06887 13.3537 2.20004 14H6.12377ZM6.50405 16H2.83209C4.0096 18.6951 6.34063 20.7707 9.20108 21.6031C7.96156 19.9536 7.03345 18.0568 6.50405 16ZM8.57976 16H15.4203C14.7623 18.2109 13.5728 20.1929 12 21.798C10.4272 20.1929 9.23776 18.2109 8.57976 16ZM15.8583 14H8.14179C8.04836 13.3468 8 12.679 8 12C8 11.321 8.04836 10.6532 8.14179 10H15.8583C15.9516 10.6532 16 11.321 16 12C16 12.679 15.9516 13.3468 15.8583 14ZM17.8763 14C17.9579 13.3448 18 12.6773 18 12C18 11.3227 17.9579 10.6552 17.8763 10H21.8C21.9312 10.6462 22 11.3151 22 12C22 12.6849 21.9312 13.3537 21.8 14H17.8763ZM17.496 16H21.1679C19.9904 18.6951 17.6593 20.7707 14.7989 21.6031C16.0384 19.9536 16.9665 18.0568 17.496 16ZM12 2.20204C10.4272 3.80704 9.23776 5.78908 8.57976 8H15.4203C14.7623 5.78908 13.5728 3.80704 12 2.20204ZM14.7989 2.39697C16.0384 4.04639 16.9665 5.94316 17.4959 8H21.1679C19.9904 5.30497 17.6593 3.22927 14.7989 2.39697ZM2.83209 8H6.50408C7.03348 5.94316 7.9616 4.04639 9.20111 2.39697C6.34064 3.22927 4.0096 5.30497 2.83209 8Z" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_647">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <button class="button button_primary">Регистрация</button>
+          </div>
+          <!-- /buttons -->
         </div>
         <!-- /Menu-container -->
       </div>
@@ -127,7 +127,7 @@
               месте.</p>
 
             <form class="form">
-              <label class="form__label" for="email">Email</label>
+              <label class="visually-hidden" for="email">Email</label>
               <input class="form__input" type="email" id="email" name="email">
               <button class="button button_primary form__submit">Начать бесплатно</button>
               <p class="form__text">Всегда бесплатно — кредитная карта не нужна</p>
@@ -217,7 +217,8 @@
                 ">
 
               <img src="/images/img-2_1280.jpg " width="600" height="460" alt="Работайте вместе в одном пространстве"
-                title="Работайте вместе в одном пространстве">
+                title="Работайте вместе в одном пространстве"
+                loading="lazy">
             </picture>
           </div>
         </article>
@@ -267,7 +268,8 @@
                 ">
 
               <img src="/images/img-3_1280.jpg " width="600" height="460"
-                alt="100 интеграций с известными инструментами" title="100 интеграций с известными инструментами.">
+                alt="100 интеграций с известными инструментами" title="100 интеграций с известными инструментами."
+                loading="lazy">
             </picture>
           </div>
 
@@ -341,7 +343,7 @@
                     ./images/img-4_1280.jpg 2x,
                   ">
 
-                <img src="/images/img-4_1280.jpg " width="600" height="460" alt="Мозговой штурм" title="Мозговой штурм">
+                <img src="/images/img-4_1280.jpg " width="600" height="460" alt="Мозговой штурм" title="Мозговой штурм" loading="lazy">
               </picture>
             </div>
           </article>
@@ -389,7 +391,7 @@
               <div class="tools">
                 <p class="text tools__text">Интегрируйте ваши любимые инструменты</p>
                 <img class="tools__img" src="./images/icons/tools-icon.svg" alt="ваши любимые инструменты" width="284px"
-                  height="45px">
+                  height="45px" loading="lazy">
               </div>
 
             </div>
@@ -422,7 +424,7 @@
                     ./images/img-4_1280.jpg 2x,
                   ">
 
-                <img src="/images/img-4_1280.jpg " width="600" height="460" alt="Мозговой штурм" title="Мозговой штурм">
+                <img src="/images/img-4_1280.jpg " width="600" height="460" alt="Мозговой штурм" title="Мозговой штурм" loading="lazy">
               </picture>
             </div>
           </article>
@@ -440,7 +442,7 @@
           </div>
           <ul class="advantages__list">
             <li class="advantages__item">
-              <img class="advantages__img" src="./images/advantages/img-iso.svg" alt="ISO" width="360px" height="153px">
+              <img class="advantages__img" src="./images/advantages/img-iso.svg" alt="ISO" width="360px" height="153px" loading="lazy">
 
               <p class="advantages__desc text">Miro cоответствует требованиям безопасности корпоративного уровня,
                 согласно
@@ -448,30 +450,30 @@
             </li>
             <li class="advantages__item">
               <img class="advantages__img" src="./images/advantages/img-number-one.svg" alt="номер 1 " width="360px"
-                height="153px">
+                height="153px" loading="lazy">
 
               <p class="advantages__desc text">Платформа номер 1 для совместной работы, согласно отзывам на G2</p>
             </li>
             <li class="advantages__item">
-              <img class="advantages__img" src="./images/advantages/img-99.svg" alt="99%" width="360px" height="153px">
+              <img class="advantages__img" src="./images/advantages/img-99.svg" alt="99%" width="360px" height="153px" loading="lazy">
 
               <p class="advantages__desc text">Почти все компании из списка Fortune 100 используют Miro</p>
             </li>
             <li class="advantages__item">
               <img class="advantages__img" src="./images/advantages/img-templates-cout.svg" alt="1000+" width="360px"
-                height="153px">
+                height="153px" loading="lazy">
 
               <p class="advantages__desc text">шаблонов, созданных сообществом и экспертами</p>
             </li>
             <li class="advantages__item">
               <img class="advantages__img" src="./images/advantages/img-users-count.svg" alt="45млн+ " width="360px"
-                height="153px">
+                height="153px" loading="lazy">
 
               <p class="advantages__desc text">пользователей во всём мире</p>
             </li>
             <li class="advantages__item">
               <img class="advantages__img" src="./images/advantages/img-services-tools-cout.svg" alt="100+"
-                width="360px" height="153px">
+                width="360px" height="153px" loading="lazy">
 
               <p class="advantages__desc text">интеграций с различными онлайн-сервисами и инструментами</p>
             </li>
@@ -490,7 +492,7 @@
           <ul class="review__list">
             <li class="review__item">
               <div class="card">
-                <img class="card__img" src="./images/icons/vmware-icon.svg" alt="vmware" width="288px" height="62px">
+                <img class="card__img" src="./images/icons/vmware-icon.svg" alt="vmware" width="288px" height="62px" loading="lazy">
                 <p class="card__desc text">
                   «Когда пришла пандемия, мы беспокоились, что креативность и продуктивность команды пострадает, так как
                   многие из нас привыкли работать в одной комнате. Но Miro оказался идеальным инструментом для
@@ -498,7 +500,7 @@
                 </p>
                 <div class="author">
                   <div class="author__avatar">
-                    <img src="./images/avatars/avatar-1.jpg" alt="Роксанна Мустафа" width="48px" height="48px">
+                    <img src="./images/avatars/avatar-1.jpg" alt="Роксанна Мустафа" width="48px" height="48px" loading="lazy">
                   </div>
 
                   <div class="author__info">
@@ -511,14 +513,14 @@
             <li class="review__item">
               <div class="card">
                 <img class="card__img" src="./images/icons/docuSign-icon.svg" alt="docuSign" width="288px"
-                  height="62px">
+                  height="62px" loading="lazy">
                 <p class="card__desc text">«Miro помогает решить проблему, связанную с основным пробелом в
                   проектировании
                   изделий: позволяет управлять задачами с участием проектировщиков изделий, проекты которых реализуются
                   с помощью разных инструментов.»</p>
                 <div class="author">
                   <div class="author__avatar">
-                    <img src="./images/avatars/avatar-2.jpg" alt="Джейн Эшли" width="48px" height="48px">
+                    <img src="./images/avatars/avatar-2.jpg" alt="Джейн Эшли" width="48px" height="48px" loading="lazy">
                   </div>
                   <div class="author__info">
                     <div class="author__name">Джейн ЭшлиДжейн Эшли</div>
@@ -529,14 +531,14 @@
             </li>
             <li class="review__item">
               <div class="card">
-                <img class="card__img" src="./images/icons/frog-icon.svg" alt="frog" width="288px" height="62px">
+                <img class="card__img" src="./images/icons/frog-icon.svg" alt="frog" width="288px" height="62px" loading="lazy">
                 <p class="card__desc text">«Когда мы начали использовать Miro, скептицизм сменился верой в инновации,
                   теперь
                   у нас есть инструмент, который лежит в основе любой работы, и мы продолжим использовать его и в
                   будущем».</p>
                 <div class="author">
                   <div class="author__avatar">
-                    <img src="./images/avatars/avatar-3.jpg" alt="Лора Бейрд" width="48px" height="48px">
+                    <img src="./images/avatars/avatar-3.jpg" alt="Лора Бейрд" width="48px" height="48px" loading="lazy">
                   </div>
                   <div class="author__info">
                     <div class="author__name">Лора Бейрд</div>
@@ -573,10 +575,10 @@
           <div class="block">
             <label class="block__head" for="product">
               <h3 class="block__title">Продукт</h3>
-              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px">
+              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px" loading="lazy">
             </label>
 
-            <input type="checkbox" id="product" hidden>
+            <input class="visibility-hidden" type="checkbox" id="product">
             <ul class="block__list">
               <li><a class="block__link" href="#">О продукте</a> </li>
               <li><a class="block__link" href="#">Приложения и интеграции</a></li>
@@ -593,9 +595,9 @@
           <div class="block">
             <label class="block__head" for="Solutions">
               <h3 class="block__title">Решения</h3>
-              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px">
+              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px" loading="lazy">
             </label>
-            <input type="checkbox" id="Solutions" hidden>
+            <input class="visibility-hidden" type="checkbox" id="Solutions">
 
             <ul class="block__list">
               <li><a class="block__link" href="#">Встречи и воркшопы</a></li>
@@ -614,9 +616,9 @@
           <div class="block">
             <label class="block__head" for="Resources">
               <h3 class="block__title">Ресурсы</h3>
-              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px">
+              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px" loading="lazy">
             </label>
-            <input type="checkbox" id="Resources" hidden>
+            <input class="visibility-hidden" type="checkbox" id="Resources">
 
 
             <ul class="block__list">
@@ -632,9 +634,9 @@
           <div class="block">
             <label class="block__head" for="Company">
               <h3 class="block__title">Компания</h3>
-              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px">
+              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px" loading="lazy">
             </label>
-            <input type="checkbox" id="Company" hidden>
+            <input class="visibility-hidden" type="checkbox" id="Company">
 
             <ul class="block__list">
               <li><a class="block__link" href="#">О нас</a></li>
@@ -646,9 +648,9 @@
           <div class="block">
             <label class="block__head" for="Tariffs and plans">
               <h3 class="block__title">Тарифы и планы</h3>
-              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px">
+              <img src="./images/icons/arrow.svg" alt="arrow" width="18px" height="9.8px" loading="lazy">
             </label>
-            <input type="checkbox" id="Tariffs and plans" hidden>
+            <input class="visibility-hidden" type="checkbox" id="Tariffs and plans">
 
             <ul class="block__list">
               <li><a class="block__link" href="#">Тарифы</a></li>
